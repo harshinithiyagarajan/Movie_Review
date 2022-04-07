@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>login</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="login">
+             <form >
+                 <label for="username"> Username:</label>
+                 <input type="text" name="uname" id="uname"><br>
+                 <label for="password">password:</label>
+                 <input type="password" name="pword" id="password"><br><br>
+                 <button onclick="check()">Login</button>
+                 <script>
+                     function check(){
+                      if(document.getElementById("uname").value.length==0)
+                      {
+                          alert("enter username")
+                      }
+                      else if(document.getElementById("password").value.length==0)
+                      {
+                          alert("enter password")
+                      }
+                      else{
+                          location.href("C:/Users/HARSHINI/Desktop/mlist.html")
+                      }
+                    }
+                 </script>
+             </form>
+        </div>
+    </body>
+    
+</html>

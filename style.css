@@ -1,0 +1,54 @@
+.body{
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.movier{
+    background-color:aquamarine;
+    color: brown;
+}
+.movie a{
+    float: right; 
+}
+.segen div{
+    float: right;
+}
+.rating-css {
+    height: 150px;
+    width: 400px;
+    padding: 10px;
+  }
+  .rating-css div {
+    color: #ffe400;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+  }
+  .rating-css input {
+    display: none;
+  }
+  .rating-css input + label {
+    font-size: 60px;
+    text-shadow: 1px 1px 0 #ffe400;
+    cursor: pointer;
+  }
+  .rating-css input:checked + label ~ label {
+    color: #838383;
+  }
+  .rating-css label:active {
+    transform: scale(0.8);
+    transition: 0.3s ease;
+  }
+  .login{
+      text-align: center;
+      font-size: xx-large;
+  }
+  .log{
+        background-color: #f44336;
+        color: white;
+        padding: 14px 25px;
+        text-decoration: none;
+        margin-top: 10px;
+  }
